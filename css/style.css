@@ -224,6 +224,6 @@ input {
 }
 @media screen and (max-width: 380px) {
     .header {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 }
