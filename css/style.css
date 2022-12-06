@@ -127,6 +127,13 @@ input {
     padding-top: 100px;
     z-index: 99;
     height: 100%;
+    
+}
+.header .holdy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 .header .main-header {
     margin-bottom: 40px;
@@ -229,5 +236,8 @@ input {
     }
     .header h1 {
         font-size: 22px;
+    }
+    .main-jci {
+        overflow-y: scroll;
     }
 }
